@@ -1,17 +1,3 @@
 # html_css
 - can do this
-<!DOCTYPE HTML>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <title>COMP 333: Software Engineering</title>
-    <link rel="stylesheet" href="style_sample.css">
-</head>
 
-<body>
-    Here is the second page. Click to return to the <a href="html_sample.html">
-    first page</a>.
-</body>
-</html>
