@@ -1,0 +1,13 @@
+/*
+    COMP 333: Software Engineering
+    Judeley Jean-Charles (jjeancharles@wesleyan.edu)
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+.navbar {
+    width: 100% ;
+    display: flex ;
+    align-items: center ;
+    background-color: crimson;
+}
