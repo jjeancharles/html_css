@@ -88,7 +88,6 @@ button{
     text-transform: uppercase;
     display: inline-block ;
     text-align: center ;
-    line-height: 0.9;
     cursor: pointer;
     padding: 12px 10px;
     
@@ -96,7 +95,9 @@ button{
 }
 
 button:hover {
-    color:grey
+    color: crimson;
+    background-color: white;
+    
 }
 
 .displaytitle {
