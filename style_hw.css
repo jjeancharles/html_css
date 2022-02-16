@@ -114,6 +114,10 @@ body {
     margin: 0px ;
 }
 
+.backgroundimage {
+    background-image: url(assets/hand-1850120.jpg);
+}
+
 
 /*
 nav ul li:hover , .sub-menu-1 
