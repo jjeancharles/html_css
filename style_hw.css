@@ -65,3 +65,36 @@ button{
 button:hover {
     color:grey
 }
+
+.sub-menu-1
+{
+    display: none;
+
+}
+
+nav ul li:hover , .sub-menu-1 
+{
+    display: block;
+    position: absolute;
+    background: crimson;
+    margin-top: 15px ;
+    margin-left: -15px;
+}
+
+nav ul li:hover , .sub-menu-1 ul 
+{
+    display: block;
+    margin: 10px;
+}
+
+/*
+nav ul li:hover , .sub-menu-1 ul li 
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted crimson ;
+    background: transparent ;
+    border-radius: 0;
+
+}
+*/
