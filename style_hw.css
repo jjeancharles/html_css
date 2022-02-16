@@ -57,6 +57,7 @@ nav ul ul
     position: absolute;
     background: crimson;
     display: none;
+    text-align: center;
 }
 
 nav ul li:hover > ul
@@ -97,7 +98,7 @@ button{
 button:hover {
     color: crimson;
     background-color: white;
-    
+
 }
 
 .displaytitle {
