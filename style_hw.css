@@ -39,7 +39,25 @@ nav ul li a {
 }
 
 nav ul li a:hover {
+    display: block ;
     color: violet;
+    background-color: rgba(220, 20, 60, 0.893);
+}
+
+nav ul ul 
+{
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+
+nav ul ul li 
+{
+    width: 150px;
+    float: none ;
+    display: list-item;
+    position: relative;
+
 }
 
 button{
@@ -72,11 +90,12 @@ button:hover {
 
 }
 
+/*
 nav ul li:hover , .sub-menu-1 
 {
     display: block;
     position: absolute;
-    background: crimson;
+    background: rgba(220, 20, 60, 0.893) ;
     margin-top: 15px ;
     margin-left: -15px;
 }
@@ -86,6 +105,7 @@ nav ul li:hover , .sub-menu-1 ul
     display: block;
     margin: 10px;
 }
+*/
 
 /*
 nav ul li:hover , .sub-menu-1 ul li 
