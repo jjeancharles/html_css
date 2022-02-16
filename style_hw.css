@@ -21,9 +21,9 @@ nav {
 
 nav ul{
     padding: 0;
-    margin: 0;
+    margin: 20;
     float: right;
-    margin-right: 30px;
+    margin-right: 0px;
 }
 
 nav ul li {
