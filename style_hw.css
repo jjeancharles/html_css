@@ -99,6 +99,15 @@ button:hover {
     color:grey
 }
 
+.displaytitle {
+    color: white ;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+    font-style: italic;
+
+}
+
 
 
 /*
