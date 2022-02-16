@@ -105,6 +105,7 @@ button:hover {
     letter-spacing: 0.1rem;
     font-weight: 700;
     font-style: italic;
+    border: crimson;
 
 }
 
