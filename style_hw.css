@@ -119,6 +119,14 @@ body {
     background-image: url(assets/hand-1850120.jpg);
 }
 
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
 
 /*
 nav ul li:hover , .sub-menu-1 
