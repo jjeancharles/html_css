@@ -121,13 +121,52 @@ body {
 
 .centered {
     position: absolute;
-    top: 30%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
 
+.center_image {
+    position: absolute;
+    top: 45%;
+    left: 53%;
+    transform: translate(-50%,-50%);
+}
 
+.downloadbuttons {
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+}
 
+.apple_downloads {
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+}
+
+.android_downloads {
+    position: absolute;
+    top: 45%;
+    left: 65%;
+    transform: translate(-50%,-50%);
+}
+
+.playstorebut{
+    position: absolute;
+    top: 70%;
+    left: 65%;
+    transform: translate(-50%,-50%);
+}
+
+.applestorebut {
+    position: absolute;
+    top: 70%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+}
 /*
 nav ul li:hover , .sub-menu-1 
 {
