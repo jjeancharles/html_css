@@ -1,7 +1,7 @@
 <!--
     COMP 333: Software Engineering
     Judeley Jean-Charles (jjeancharles@wesleyan.edu)
-    Homework 1 Sample
+    Homework 1
 -->
 
 <!DOCTYPE HTML>
@@ -22,15 +22,15 @@
                     <li><a href="hw1_sample.html">HOME</a></li>
                     <li><a href="downloads.html">DOWNLOAD</a></li>
                     <li><a href="plan.html">PLAN</a></li>
-                    <li><a href="">CHARTS</a>
+                    <li><a href="charts.html">CHARTS</a>
                             <ul>
-                                <li><a href="">This Week</a></li>
-                                <li><a href="">Top Artists</a></li>
-                                <li><a href="">Trending</a></li>
+                                <li><a href="charts.html">This Week</a></li>
+                                <li><a href="charts.html">Top Artists</a></li>
+                                <li><a href="charts.html">Trending</a></li>
                             </ul>
                     </li>      
-                    <li><a href="">LOGIN</a></li>
-                    <li><a href="">FAQS</a></li>
+                    <li><a href="login.html">LOGIN</a></li>
+                    <li><a href="faqs.html">FAQS</a></li>
                 </ul>
             </nav>
         </div>
@@ -44,28 +44,11 @@
             </h1>
             <div class="centered">
                 <button type="button">create an account</button>
-                <button type="button">start r8ing</button>    
+                <button class="mobilebut" type="button">start r8ing</button>    
             </div>   
         </div>
-
-        <div class="form-style-2">
-            <div class="form-style-2-heading">
-
-            <form action="">
-                <input type="text" name="first-name" value="Enter your first name">
-                <input type="email" value="Enter your email">
-                <!-- 
-                    You can have the user submitting data without showing it, which can
-                    be useful for a cookie value that you are passing in here, for 
-                    example. 
-                -->
-                <input type="hidden" name="hidden-field" value="pass-in-cookie-value-here">
-                <!-- 
-                    Submit button 
-                -->
-                <input type="submit" value="Submit">
-            </form>
-            </div>
+        <div style="position:absolute; bottom: -150px;">
+                <iframe src="downloads.html" name="navframe"></iframe>
         </div>
     </body>
 </html>
